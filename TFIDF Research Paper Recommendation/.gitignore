@@ -1,0 +1,8 @@
+tempCodeRunnerFile.py
+papers_clean.csv
+papers_warehouse.db
+*.json
+raw_dataset.csv
+__pycache__/
+*.pyc
+papers_df.pkl
