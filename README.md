@@ -35,6 +35,7 @@ The system is built using:
 ## 🏗️ Project Architecture
 PaperLens
 │
+
 ├── scraping/
 
 │ └── Scrapy spiders (data extraction)
