@@ -36,31 +36,39 @@ The system is built using:
 PaperLens
 │
 ├── scraping/
+
 │ └── Scrapy spiders (data extraction)
 
 │
 ├── preprocessing.py
+
 │ └── Cleaning, deduplication, feature building
 
 │
 ├── recommender.py
+
 │ └── TF-IDF + cosine similarity logic
 
 │
 ├── app.py
+
 │ └── FastAPI (TF-IDF based)
 
 │
 ├── app_bert.py
+
 │ └── BERT-based semantic search
 
 │
 ├── database/
+
 │ └── SQLite DB / CSV data
 
 │
 └── cache/
+
 ├── papers_df.pkl
+
 └── bert_embeddings.pkl
 
 
